@@ -1,4 +1,4 @@
-var CHANNEL_ACCESS_TOKEN = 'Sg21ZYvinM5fg8zALwgiYx25rwoXj6Z/0oSQJibl7qr0ceAVaKAPqUgeqdlB0le5OWidfXcpDnQXvi45ww+hWTjAx0X15l2Ze0MQq+M/MZn7QdiuxP3uAXBidkhLGWeyyxjYm8038k8PrPaf7xxAtgdB04t89/1O/w1cDnyilFU='; 
+var CHANNEL_ACCESS_TOKEN = PropertiesService.getScriptProperties().getProperty('CHANNEL_ACCESS_TOKEN');
 var sheet_url = "https://docs.google.com/spreadsheets/d/1Db4Qayo29IITnUVjqfS3A-xMq5RYkg4yGQeihoMo6Pc/edit";
 
 var sheet_name = "ชีต2";
